@@ -142,6 +142,55 @@ input {
     z-index: 2;
 }
 
+.third-button {
+    background-color: rgba(26, 62, 62, 1);
+    padding: 12px 24px;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.third-part {
+    background-color: rgba(243, 245, 244, 1);
+    display: flex;
+    justify-content: center;
+    padding: 5% 15%;
+    gap: 20px;
+
+}
+
+.left-part {
+    width: 40%;
+}
+
+.pop {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+.pop h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.pop img {
+    width: 40%;
+}
+
+.pop1 {
+    padding-bottom: 20px;
+}
+
+.right-part-1 {
+    display: flex;
+    gap: 10px 10px;
+    padding-bottom: 10px;
+
+}
 
 
 
@@ -196,7 +245,7 @@ input {
 
     .img-part {
         width: 100%;
-        margin: auto;
+       margin-bottom: 100%;
     }
 
     .third-button {
@@ -205,9 +254,23 @@ input {
 
     .img-part img {
         width: 95%;
+        
     }
 
     .img-1 {
+        display: none;
+    }
+
+    .third-part {
+        display: flex;
+        flex-direction: column;
+        padding: 10% 3%;
+    }
+
+    .left-part {
+        width: 100%;
+    }
+    .right-part {
         display: none;
     }
 }
