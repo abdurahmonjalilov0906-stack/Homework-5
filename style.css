@@ -285,10 +285,11 @@ input {
 }
 
 .section-5 {
-     background-color:rgba(243, 245, 244, 1);
-     padding: 5% 5%;
-     margin-bottom: 50px;
+    background-color: rgba(243, 245, 244, 1);
+    padding: 5% 5%;
+    margin-bottom: 50px;
 }
+
 .qismho {
     display: flex;
     justify-content: center;
@@ -304,30 +305,43 @@ input {
     border-radius: 10px;
     width: 45%;
 }
+
 .qism h3 {
     font-size: 28px;
     font-weight: 900;
     padding-bottom: 30px;
 }
+
 .qism p {
     color: rgba(24, 18, 30, 1);
     font-size: 18px;
     padding-bottom: 50px;
 }
+
 .poyon {
     display: flex;
     gap: 150px;
 }
+
 .poyon p {
     color: rgba(242, 190, 34, 1);
 }
+
 #lop {
     color: black;
 }
+
 .but {
     display: block;
 }
-
+.section-6 {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding: 50px 15%;
+}
 
 @media (max-width:510px) {
     header {
@@ -430,8 +444,9 @@ input {
     .qism {
         display: flex;
         flex-direction: column;
-        min-width:90%;
+        min-width: 90%;
     }
+
     .qismho {
         overflow: auto;
         justify-content: start;
@@ -440,15 +455,18 @@ input {
     .rasm-part {
         width: 100%;
     }
-    .second {
-        display: none;
-    }
-
-    .first {
-        width: 100%;
-    }
-
     .lob {
         margin-right: 10px;
     }
+    .section-6 {
+        justify-content:start;
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding: 50px 20px;
+    }
+     .first,.second {
+        min-width:90%;
+    }
+    
+
 }
