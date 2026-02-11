@@ -191,10 +191,12 @@ input {
     padding-bottom: 10px;
 
 }
+
 .par-4 {
     padding: 50px 0px 10px;
     text-align: center;
 }
+
 .par-5 {
     text-align: center;
     padding-bottom: 30px;
@@ -207,60 +209,68 @@ input {
     gap: 20px;
     margin-bottom: 50px;
 }
+
 .back {
     width: 350px;
     height: 450px;
     background-image: url(./img.png/фоновое\ изображение\ \(3\).png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     border-radius: 40px;
 }
+
 .text {
     background-color: rgba(255, 255, 255, 0.2);
     margin-top: 90%;
-    padding:20px;
+    padding: 20px;
     display: flex;
     align-items: center;
 }
+
 .text h4 {
     font-size: 20px;
 }
+
 .dol {
     font-size: 25px;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 4px 8px;
     margin-left: 10%;
 }
+
 .back1 {
     width: 350px;
     height: 450px;
     background-image: url(./img.png/фоновое\ изображение\ \(4\).png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     border-radius: 40px;
 }
+
 .back2 {
-     width: 350px;
+    width: 350px;
     height: 450px;
     background-image: url(./img.png/фоновое\ изображение\ \(5\).png);
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 100%;
     color: white;
     border-radius: 40px;
 }
+
 .fourth-button {
     margin-left: 45%;
-     background-color: rgba(26, 62, 62, 1);
+    background-color: rgba(26, 62, 62, 1);
     padding: 12px 24px;
     border-radius: 4px;
     color: white;
     border: none;
     font-size: 18px;
     margin-bottom: 30px;
-   
+
 }
+
 .star {
     display: flex;
     align-items: center;
@@ -272,6 +282,50 @@ input {
     width: 70px;
     margin-left: 75%;
     margin-top: 10%;
+}
+
+.section-5 {
+     background-color:rgba(243, 245, 244, 1);
+     padding: 5% 5%;
+     margin-bottom: 50px;
+}
+.qismho {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.qism {
+    display: flex;
+    gap: 20px;
+    background-color: rgba(253, 253, 253, 1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+.qism h3 {
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.qism p {
+    color: rgba(24, 18, 30, 1);
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.poyon {
+    display: flex;
+    gap: 150px;
+}
+.poyon p {
+    color: rgba(242, 190, 34, 1);
+}
+#lop {
+    color: black;
+}
+.but {
+    display: block;
 }
 
 
@@ -326,7 +380,7 @@ input {
 
     .img-part {
         width: 100%;
-       margin-bottom: 100%;
+        margin-bottom: 100%;
     }
 
     .third-button {
@@ -335,7 +389,7 @@ input {
 
     .img-part img {
         width: 95%;
-        
+
     }
 
     .img-1 {
@@ -351,19 +405,50 @@ input {
     .left-part {
         width: 100%;
     }
+
     .right-part {
         display: none;
     }
-   .section-4 {
-    overflow: auto;
-    justify-content: start;
 
-   }
-  .back,.back1,.back2 {
-    min-width: 90%;
-    height: auto;
-  }
+    .section-4 {
+        overflow: auto;
+        justify-content: start;
+
+    }
+
+    .back,
+    .back1,
+    .back2 {
+        min-width: 90%;
+        height: auto;
+    }
+
     .fourth-button {
-    margin-left: 25%;
-}
+        margin-left: 25%;
+    }
+
+    .qism {
+        display: flex;
+        flex-direction: column;
+        min-width:90%;
+    }
+    .qismho {
+        overflow: auto;
+        justify-content: start;
+    }
+
+    .rasm-part {
+        width: 100%;
+    }
+    .second {
+        display: none;
+    }
+
+    .first {
+        width: 100%;
+    }
+
+    .lob {
+        margin-right: 10px;
+    }
 }
