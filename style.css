@@ -454,6 +454,13 @@ input {
     top: 60%;
     left: 53%;
 }
+.last {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+     color: white;
+     padding: 30px 50px;
+} 
 @media (max-width:510px) {
     header {
         width: 100%;
@@ -619,6 +626,12 @@ input {
     .tretiy {
         width: 100%;
     }
+    .last {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
 
 
 }
